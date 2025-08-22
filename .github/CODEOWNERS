@@ -1,0 +1,41 @@
+# CODEOWNERS file for payment-monitor-645
+# Global owners - will be requested for all PRs
+* @Armor-test/unit-devops @Armor-test/team-frontend @Armor-test/squad-search
+
+# Directory ownership
+/views/ @Armor-test/team-research @Armor-test/squad-tooling @Armor-test/unit-test
+/dist/ @Armor-test/team-core @Armor-test/team-research @Armor-test/squad-frontend
+/docs/ @Armor-test/squad-api @Armor-test/dept-logging @Armor-test/grp-payments
+/test/ @Armor-test/dept-reporting @Armor-test/squad-ml
+/hooks/ @Armor-test/team-frontend @Armor-test/team-logging
+/src/ @Armor-test/team-security @Armor-test/grp-storage @Armor-test/dept-data
+/app/ @Armor-test/squad-reporting @Armor-test/grp-search
+/core/ @Armor-test/unit-test @Armor-test/team-frontend @Armor-test/grp-storage
+/security/ @Armor-test/dept-data @Armor-test/dept-billing @Armor-test/squad-cache
+/scripts/ @Armor-test/dept-reliability @Armor-test/grp-storage
+/tests/ @Armor-test/team-frontend @Armor-test/team-notifications @Armor-test/dept-test
+/api/ @Armor-test/squad-product @Armor-test/dept-notifications @Armor-test/grp-integration
+/controllers/ @Armor-test/dept-logging @Armor-test/grp-payments @Armor-test/squad-cloud
+
+# File type ownership
+*.c @Armor-test/team-reporting @Armor-test/dept-release @Armor-test/unit-design
+*.rs @Armor-test/unit-test @Armor-test/grp-search
+*.proto @Armor-test/team-notifications @Armor-test/dept-release @Armor-test/team-logging
+*.json @Armor-test/squad-qa @Armor-test/squad-cloud @Armor-test/squad-api
+*.kt @Armor-test/squad-performance @Armor-test/squad-payments @Armor-test/team-logging
+*.lock @Armor-test/dept-security @Armor-test/squad-performance
+*.rb @Armor-test/team-core @Armor-test/team-logging
+*.css @Armor-test/squad-mobile @Armor-test/squad-product
+*.jsx @Armor-test/squad-frontend @Armor-test/team-core
+*.yaml @Armor-test/unit-cloud @Armor-test/team-notifications
+*.cs @Armor-test/squad-payments @Armor-test/dept-identity
+*.tsx @Armor-test/dept-release @Armor-test/squad-qa
+*.yml @Armor-test/squad-mobile @Armor-test/squad-ml @Armor-test/dept-test
+*.cpp @Armor-test/dept-release @Armor-test/squad-mobile @Armor-test/squad-ux
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+Dockerfile @Armor-test/devops @Armor-test/infra
